@@ -39,14 +39,14 @@ namespace AppSemTemplate.Controllers
             return View(produto);
         }
 
-        public IActionResult Create()
+        public IActionResult CriarNovoProduto()
         {
-            return View();
+            return View("Create");
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Imagem,Valor")] Produto produto)
+        public async Task<IActionResult> CriarNovoProduto([Bind("Id,Nome,Imagem,Valor")] Produto produto)
         {
             if (ModelState.IsValid)
             {
@@ -54,7 +54,7 @@ namespace AppSemTemplate.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(produto);
+            return View("Create",produto);
         }
 
         public async Task<IActionResult> Edit(int? id)
