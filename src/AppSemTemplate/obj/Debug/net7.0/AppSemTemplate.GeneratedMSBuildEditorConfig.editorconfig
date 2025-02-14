@@ -16,8 +16,36 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate
 build_property._RazorSourceGeneratorDebug = 
 
+[/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Areas/Produtos/Views/Cadastro/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvUHJvZHV0b3MvVmlld3MvQ2FkYXN0cm8vaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Areas/Produtos/Views/shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvUHJvZHV0b3MvVmlld3Mvc2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Areas/Produtos/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvUHJvZHV0b3MvVmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Areas/Produtos/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvUHJvZHV0b3MvVmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Areas/Vendas/Views/Gestao/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmVuZGFzL1ZpZXdzL0dlc3Rhby9pbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Areas/Vendas/Views/shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmVuZGFzL1ZpZXdzL3NoYXJlZC9fTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Areas/Vendas/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmVuZGFzL1ZpZXdzL19WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Areas/Vendas/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmVuZGFzL1ZpZXdzL19WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Views/Home/Index.cshtml]
