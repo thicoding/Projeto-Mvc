@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate
 build_property._RazorSourceGeneratorDebug = 
 
+[/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Areas/Vendas/Views/Gestao/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmVuZGFzL1ZpZXdzL0dlc3Rhby9pbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
