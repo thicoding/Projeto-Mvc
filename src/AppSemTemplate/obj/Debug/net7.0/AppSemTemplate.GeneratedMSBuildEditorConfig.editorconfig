@@ -16,36 +16,36 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate
 build_property._RazorSourceGeneratorDebug = 
 
-[/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Areas/Produtos/Views/Cadastro/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvUHJvZHV0b3MvVmlld3MvQ2FkYXN0cm8vaW5kZXguY3NodG1s
+[/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Modulos/Produtos/Views/Cadastro/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxvcy9Qcm9kdXRvcy9WaWV3cy9DYWRhc3Ryby9pbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Areas/Produtos/Views/shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvUHJvZHV0b3MvVmlld3Mvc2hhcmVkL19MYXlvdXQuY3NodG1s
+[/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Modulos/Produtos/Views/shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxvcy9Qcm9kdXRvcy9WaWV3cy9zaGFyZWQvX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Areas/Produtos/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvUHJvZHV0b3MvVmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Modulos/Produtos/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxvcy9Qcm9kdXRvcy9WaWV3cy9fVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Areas/Produtos/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvUHJvZHV0b3MvVmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Modulos/Produtos/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxvcy9Qcm9kdXRvcy9WaWV3cy9fVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Areas/Vendas/Views/Gestao/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmVuZGFzL1ZpZXdzL0dlc3Rhby9pbmRleC5jc2h0bWw=
+[/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Modulos/Vendas/Views/Gestao/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxvcy9WZW5kYXMvVmlld3MvR2VzdGFvL2luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Areas/Vendas/Views/shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmVuZGFzL1ZpZXdzL3NoYXJlZC9fTGF5b3V0LmNzaHRtbA==
+[/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Modulos/Vendas/Views/shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxvcy9WZW5kYXMvVmlld3Mvc2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Areas/Vendas/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmVuZGFzL1ZpZXdzL19WaWV3SW1wb3J0cy5jc2h0bWw=
+[/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Modulos/Vendas/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxvcy9WZW5kYXMvVmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Areas/Vendas/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmVuZGFzL1ZpZXdzL19WaWV3U3RhcnQuY3NodG1s
+[/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Modulos/Vendas/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxvcy9WZW5kYXMvVmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/Views/Home/Index.cshtml]
