@@ -3,20 +3,36 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AppSemTemplate.Controllers
 {
-
     [Route("teste-di")]
-    public class DiLifecycleController : Controller{
+    public class DiLifecycleController : Controller
+    {
+        public OperacaoService OperacaoService { get; }
+        public OperacaoService OperacaoService2 { get; }
 
-        public IOperacao Operacao {get; set;}
-
-        public DiLifecycleController(IOperacao operacao){
-            Operacao = operacao;
-        }
-        public IActionResult Index()
+        public DiLifecycleController(OperacaoService operacaoService,
+                                    OperacaoService operacaoService2)
         {
-            var teste = Operacao;
-            return View();
+            OperacaoService = operacaoService;
+            OperacaoService2 = operacaoService2;
+        }
+
+        public string Index()
+        {
+            return
+               "Primeira instância: " + Environment.NewLine +
+               OperacaoService.Transient.OperacaoId + Environment.NewLine +
+               OperacaoService.Scoped.OperacaoId + Environment.NewLine +
+               OperacaoService.Singleton.OperacaoId + Environment.NewLine +
+               OperacaoService.SingletonInstance.OperacaoId + Environment.NewLine +
+
+               Environment.NewLine +
+               Environment.NewLine +
+
+               "Segunda instância: " + Environment.NewLine +
+               OperacaoService2.Transient.OperacaoId + Environment.NewLine +
+               OperacaoService2.Scoped.OperacaoId + Environment.NewLine +
+               OperacaoService2.Singleton.OperacaoId + Environment.NewLine +
+               OperacaoService2.SingletonInstance.OperacaoId + Environment.NewLine;
         }
     }
-    
 }
