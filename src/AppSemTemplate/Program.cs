@@ -46,6 +46,15 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 var app = builder.Build();
 
+if(app.Environment.IsDevelopment()){
+
+}
+else{
+  app.UseHsts();
+}
+
+app.UseHttpsRedirection();
+
 app.UseStaticFiles();
 
 app.UseRouting();
