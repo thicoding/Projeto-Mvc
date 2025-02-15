@@ -3,10 +3,18 @@ using Microsoft.EntityFrameworkCore;
 using AppSemTemplate.Extensions;
 using Microsoft.AspNetCore.Mvc.Razor;
 using AppSemTemplate.Services;
+using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllersWithViews();
+//builder.Services.AddControllersWithViews();
+
+builder.Services.AddControllersWithViews(options =>
+{
+  options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());
+
+});
+
 
 
 builder.Services.Configure<RazorViewEngineOptions>(options =>
