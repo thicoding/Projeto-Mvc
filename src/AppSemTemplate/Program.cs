@@ -2,6 +2,7 @@ using AppSemTemplate.Data;
 using Microsoft.EntityFrameworkCore;
 using AppSemTemplate.Extensions;
 using Microsoft.AspNetCore.Mvc.Razor;
+using AppSemTemplate.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +24,8 @@ builder.Services.Configure<RazorViewEngineOptions>(options =>
 
 
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
