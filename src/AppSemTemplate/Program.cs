@@ -4,6 +4,8 @@ using AppSemTemplate.Extensions;
 using Microsoft.AspNetCore.Mvc.Razor;
 using AppSemTemplate.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Identity;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -44,6 +46,13 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
         ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))));
 
+builder.Services.AddDefaultIdentity<IdentityUser>(options =>
+{
+    options.SignIn.RequireConfirmedAccount = true;
+}).AddEntityFrameworkStores<AppDbContext>();
+
+
+
 var app = builder.Build();
 
 if(app.Environment.IsDevelopment()){
@@ -58,6 +67,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseAuthorization();
 
 //app.MapControllerRoute(
   //  name: "default",
@@ -74,7 +85,7 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-
+app.MapRazorPages();
   using (var serviceScope = app.Services.CreateScope())
 {
     var services = serviceScope.ServiceProvider;
