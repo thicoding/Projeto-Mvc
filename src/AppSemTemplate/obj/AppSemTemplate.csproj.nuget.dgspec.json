@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/AppSemTemplate.csproj": {}
+    "/repository-backend/app3/Projeto-Mvc/src/AppSemTemplate/AppSemTemplate.csproj": {}
   },
   "projects": {
-    "/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/AppSemTemplate.csproj": {
+    "/repository-backend/app3/Projeto-Mvc/src/AppSemTemplate/AppSemTemplate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/AppSemTemplate.csproj",
+        "projectUniqueName": "/repository-backend/app3/Projeto-Mvc/src/AppSemTemplate/AppSemTemplate.csproj",
         "projectName": "AppSemTemplate",
-        "projectPath": "/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/AppSemTemplate.csproj",
+        "projectPath": "/repository-backend/app3/Projeto-Mvc/src/AppSemTemplate/AppSemTemplate.csproj",
         "packagesPath": "/home/thicodes/.nuget/packages/",
-        "outputPath": "/repository-backend/app3/ConhecimentosEssenciais/src/AppSemTemplate/obj/",
+        "outputPath": "/repository-backend/app3/Projeto-Mvc/src/AppSemTemplate/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/thicodes/.nuget/NuGet/NuGet.Config"
