@@ -49,9 +49,18 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 {
     options.SignIn.RequireConfirmedAccount = true;
-}).AddEntityFrameworkStores<AppDbContext>();
+})
+.AddRoles<IdentityRole>()
+.AddEntityFrameworkStores<AppDbContext>();
 
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("PodeExcluirPermanentemente", policy =>
+            policy.RequireRole("Admin"));
 
+    options.AddPolicy("VerProdutos", policy =>
+        policy.RequireClaim("Produtos", "VI"));
+});
 
 var app = builder.Build();
 
