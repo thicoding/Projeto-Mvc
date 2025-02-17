@@ -58,6 +58,8 @@ namespace AppSemTemplate.Configurate{
             app.UseHsts();
             }
 
+            app.UseGlobalizationConfig();
+
             app.UseHttpsRedirection();
 
             app.UseStaticFiles();
