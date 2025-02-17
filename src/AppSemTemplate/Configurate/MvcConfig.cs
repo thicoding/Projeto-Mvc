@@ -45,10 +45,14 @@ namespace AppSemTemplate.Configurate{
     
         public static WebApplication UseMvcConfiguration(this WebApplication app){
 
-                        if(app.Environment.IsDevelopment()){
+            if(app.Environment.IsDevelopment()){
+
+                app.UseDeveloperExceptionPage();
 
             }
             else{
+            app.UseExceptionHandler("/erro/500");
+            app.UseStatusCodePagesWithRedirects("/erro/{0}");
             app.UseHsts();
             }
 
