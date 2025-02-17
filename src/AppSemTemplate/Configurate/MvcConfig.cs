@@ -3,8 +3,7 @@ using AppSemTemplate.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.EntityFrameworkCore;
-
-
+using AppSemTemplate.Configuration;
 namespace AppSemTemplate.Configurate{
 
     public static class MvcConfig{
@@ -16,7 +15,7 @@ namespace AppSemTemplate.Configurate{
                 .AddJsonFile("appsettings.json", true, true)
                 .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", true, true)
                 .AddEnvironmentVariables();
-            
+ builder.Services.Configure<ApiConfiguration>(builder.Configuration.GetSection(ApiConfiguration.ConfigName));           
         
          builder.Services.AddControllersWithViews(options =>
         {
@@ -35,17 +34,7 @@ namespace AppSemTemplate.Configurate{
         options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
             ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))));
 
-
-
-
-
-
-
         return builder;
-
-        
-
-
         }
     
     
