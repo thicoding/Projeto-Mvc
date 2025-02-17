@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.EntityFrameworkCore;
 using AppSemTemplate.Configuration;
+using System.Reflection;
+
 namespace AppSemTemplate.Configurate{
 
     public static class MvcConfig{
@@ -14,7 +16,10 @@ namespace AppSemTemplate.Configurate{
                 .SetBasePath(builder.Environment.ContentRootPath)
                 .AddJsonFile("appsettings.json", true, true)
                 .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", true, true)
-                .AddEnvironmentVariables();
+                .AddEnvironmentVariables()
+                .AddUserSecrets(Assembly.GetExecutingAssembly(), true);
+
+
  builder.Services.Configure<ApiConfiguration>(builder.Configuration.GetSection(ApiConfiguration.ConfigName));           
         
          builder.Services.AddControllersWithViews(options =>
