@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.EntityFrameworkCore;
 using AppSemTemplate.Configuration;
 using System.Reflection;
+using AppSemTemplate.Extensions;
 
 namespace AppSemTemplate.Configurate{
 
@@ -25,6 +26,7 @@ namespace AppSemTemplate.Configurate{
          builder.Services.AddControllersWithViews(options =>
         {
         options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());
+        options.Filters.Add(typeof(FiltroAuditoria));
         });
 
         builder.Services.Configure<RazorViewEngineOptions>(options =>
