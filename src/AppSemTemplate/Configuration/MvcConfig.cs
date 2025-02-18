@@ -27,7 +27,11 @@ namespace AppSemTemplate.Configurate{
         {
         options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());
         options.Filters.Add(typeof(FiltroAuditoria));
-        });
+        })
+        
+        .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
+        .AddDataAnnotationsLocalization();
+        ;
 
         builder.Services.Configure<RazorViewEngineOptions>(options =>
         {

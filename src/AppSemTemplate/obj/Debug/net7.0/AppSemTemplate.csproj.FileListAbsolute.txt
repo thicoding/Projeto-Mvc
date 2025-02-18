@@ -574,3 +574,10 @@
 /repository-backend/app3/Projeto-Mvc/src/AppSemTemplate/obj/Debug/net7.0/AppSemTemplate.pdb
 /repository-backend/app3/Projeto-Mvc/src/AppSemTemplate/obj/Debug/net7.0/AppSemTemplate.genruntimeconfig.cache
 /repository-backend/app3/Projeto-Mvc/src/AppSemTemplate/obj/Debug/net7.0/ref/AppSemTemplate.dll
+/repository-backend/app3/Projeto-Mvc/src/AppSemTemplate/bin/Debug/net7.0/en/AppSemTemplate.resources.dll
+/repository-backend/app3/Projeto-Mvc/src/AppSemTemplate/obj/Debug/net7.0/AppSemTemplate.Resource.Controllers.HomeController.en.resources
+/repository-backend/app3/Projeto-Mvc/src/AppSemTemplate/obj/Debug/net7.0/AppSemTemplate.csproj.GenerateResource.cache
+/repository-backend/app3/Projeto-Mvc/src/AppSemTemplate/obj/Debug/net7.0/en/AppSemTemplate.resources.cs
+/repository-backend/app3/Projeto-Mvc/src/AppSemTemplate/obj/Debug/net7.0/en/AppSemTemplate.resources.dll
+/repository-backend/app3/Projeto-Mvc/src/AppSemTemplate/obj/Debug/net7.0/AppSemTemplate.Resource.Models.Produto.en.resources
+/repository-backend/app3/Projeto-Mvc/src/AppSemTemplate/obj/Debug/net7.0/AppSemTemplate.Resource.Views.Shared._SelectLanguagePartial.en.resources

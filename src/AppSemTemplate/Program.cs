@@ -4,7 +4,8 @@ using AppSemTemplate.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.AddMvcConfiguration()
+builder.AddGlobalizationConfig()
+       .AddMvcConfiguration()
        .AddDependencyInjectionConfiguration()
        .AddIdentityConfiguration();
 

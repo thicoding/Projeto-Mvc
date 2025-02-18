@@ -29,19 +29,17 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Produtos" asp-action="Index">Produtos</a>
                         </li>
-                             <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="Vendas" asp-controller="Gestao" asp-action="Index">Gestão de Vendas</a>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="Vendas" asp-controller="Gestao" asp-action="Index">Gestao de Vendas</a>
                         </li>
-                            </li>
-                             <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="Produtos" asp-controller="Cadastro" asp-action="Index">Gestão de Produtos</a>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="Produtos" asp-controller="Cadastro" asp-action="Index">Gestao de Produtos</a>
                         </li>
-
-
-
-
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="DiLifecycle" asp-action="Index">Teste de DI</a>
+                        </li>
                     </ul>
-                    <partial name="_LoginPartial"/>
+                    <partial name="_LoginPartial" />
                 </div>
             </div>
         </nav>
@@ -59,8 +57,11 @@
                 <div class="text-start">
                     Seu site ASP.NET feito do jeito certo!!
                 </div>
+                @*                <div class="text-end">
+                Idioma selecionado: @System.Globalization.CultureInfo.CurrentCulture.Name
+                </div>*@
                 <div class="text-end">
-                    Idioma selecionado: @System.Globalization.CultureInfo.CurrentCulture.Name
+                    <partial name="_SelectLanguagePartial" />
                 </div>
             </div>
         </div>
