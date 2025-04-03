@@ -1,2 +1,3 @@
-Este projeto é um sistema web MVC desenvolvido com ASP.NET Core para gestão de compras, oferecendo autenticação de usuários e suporte a múltiplos idiomas. O backend utiliza ASP.NET Core MVC (SDK 7.0.410) e o banco de dados MariaDB. No frontend, são empregadas Razor Pages, HTML, CSS e JavaScript. O sistema conta com autenticação baseada em Claims, proteção contra XSS e CSRF, além de configuração de ambientes e uso de User Secrets para armazenar informações sensíveis. Para instalar, basta clonar o repositório, configurar o banco no `appsettings.json`, executar as migrações e rodar o projeto com `dotnet run`. O projeto está licenciado sob MIT.
+Sistema de Gestão de Compras
 
+Este projeto é um sistema web MVC desenvolvido com ASP.NET Core para gestão de compras, oferecendo autenticação de usuários e suporte a múltiplos idiomas.
