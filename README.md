@@ -1,44 +1,38 @@
-Sistema de Gestão de Compras
+# Sistema de Gestão de Compras
 
+## Descrição
 
-Este projeto é um sistema web MVC desenvolvido com ASP.NET Core para gestão de compras, oferecendo autenticação de usuários e suporte a múltiplos idiomas.
+Desenvolvendo um sistema web MVC com **ASP.NET Core** para gestão de compras, que oferece autenticação de usuários e suporte a múltiplos idiomas.  
+O backend utiliza **ASP.NET Core MVC (SDK 7.0.410)** e o banco de dados **MariaDB**.  
+No frontend, são empregadas **Razor Pages, HTML, CSS e JavaScript** para oferecer uma interface limpa e responsiva.
 
+---
 
-🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
+- **Backend:** ASP.NET Core MVC (SDK 7.0.410)
+- **Banco de Dados:** MariaDB
+- **Frontend:** Razor Pages, HTML, CSS e JavaScript
+- **Segurança:** 
+  - Autenticação baseada em Claims
+  - Proteção contra XSS e CSRF
+- **Configuração:** 
+  - Suporte a múltiplos ambientes
+  - Uso de User Secrets para gerenciamento de informações sensíveis
 
-Backend: ASP.NET Core MVC (SDK 7.0.410)
+---
 
-Banco de Dados: MariaDB
+## 🚀 Instalação e Configuração
 
-Frontend: Razor Pages, HTML, CSS e JavaScript
+### 1. Pré-requisitos
 
-Segurança: Autenticação baseada em Claims, proteção contra XSS e CSRF
+- [.NET 7 SDK](https://dotnet.microsoft.com/download/dotnet/7.0) instalado na máquina.
+- [MariaDB](https://mariadb.org/download/) instalado e configurado.
+- Git para clonar o repositório.
 
-Configuração: Suporte a múltiplos ambientes e uso de User Secrets para informações sensíveis
+### 2. Clonando o Repositório
 
-🚀 Instalação
+Abra o terminal e execute:
 
-Siga os passos abaixo para instalar e rodar o projeto:
-
-Clone o repositório:
-
+```bash
 git clone git@github.com:thicoding/Projeto-Mvc.git
-
-Entre no diretório do projeto:
-
-cd Projeto-Mvc
-
-Configure o banco de dados no arquivo appsettings.json:
-
-"ConnectionStrings": {
-    "DefaultConnection": "Server=localhost;Database=MinhaBase;User=root;Password=MinhaSenha;"
-}
-
-Aplique as migrações do banco de dados:
-
-dotnet ef database update
-
-Rode o projeto:
-
-dotnet run
