@@ -50,14 +50,6 @@ Abra o arquivo appsettings.json (ou utilize User Secrets para informações sens
     "DefaultConnection": "Server=localhost;Database=MinhaBase;User=root;Password=MinhaSenha;"
   }
 }
-
-4. Aplicando as Migrações do Banco de Dados
-
-Para criar ou atualizar o banco de dados, execute:
-
-dotnet ef database update
-
-Esse comando aplica todas as migrações pendentes, garantindo que o schema do banco esteja atualizado.
 5. Rodando o Projeto
 
 Para iniciar a aplicação, execute:
