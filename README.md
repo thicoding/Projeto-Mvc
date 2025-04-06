@@ -32,8 +32,6 @@ No frontend, são empregadas **Razor Pages, HTML, CSS e JavaScript** para oferec
 
 ### 2. Clonando o Repositório
 
-Abra o terminal e execute:
-
 ```bash
 git clone git@github.com:thicoding/Projeto-Mvc.git
 
